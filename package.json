@@ -1,12 +1,12 @@
 {
   "name": "@neverdull-agency/expo-unlimited-secure-store",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "An 'unlimited' secure store engine for expo projects, also compatible with redux-persist. (Expo's SecureStore was limited to 2KB in SDK v33)",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "peerDependencies": {
-    "expo-file-system": "^5.0.1",
-    "expo-secure-store": "^5.0.1"
+    "expo-file-system": "^13.1.4",
+    "expo-secure-store": "^11.1.0"
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1"
