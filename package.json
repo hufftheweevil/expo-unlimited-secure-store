@@ -6,7 +6,7 @@
   "types": "src/index.d.ts",
   "peerDependencies": {
     "expo-file-system": "^15.2.2",
-    "expo-secure-store": "^11.1.0"
+    "expo-secure-store": "^12.1.1"
   },
   "dependencies": {
     "crypto-js": "^3.1.9-1"
