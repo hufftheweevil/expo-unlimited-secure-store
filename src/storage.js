@@ -44,7 +44,7 @@ export const setAsync = async (key, value, secureStoreOptions) => {
             const currentStorageFileUri = await fixedStorageUri(secureStoreOptions);
             if (currentStorageFileUri) {
                 const storageString = await FileSystem.readAsStringAsync(currentStorageFileUri);
-                storage = JSON.parse(storageString);
+                if (storageString) storage = JSON.parse(storageString);
             } 
 
             const { encryptionKey, encryptedData } = AES.encryptWithRandomKey(value);
